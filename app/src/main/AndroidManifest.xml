@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.arnold.MyApp">
+    <uses-permission android:name="android.permission.CAMERA"> </uses-permission>
+    <application
+        android:allowBackup="true"
+        android:label="Activities"
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity
+            android:name="com.example.arnold.myapp.activities.FirstActivity"
+            android:label="Activities">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.arnold.myapp.activities.SecondActivity"
+            android:label="Activities">
+        </activity>
+        <activity
+            android:name="com.example.arnold.myapp.activities.ThirdActivity"
+            android:label="Activities">
+        </activity>
+
+    </application>
+</manifest>
