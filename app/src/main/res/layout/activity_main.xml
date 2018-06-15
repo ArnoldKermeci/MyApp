@@ -5,18 +5,20 @@
 
     <!-- Declares a button that starts 2nd activity -->
     <Button
+        android:drawableLeft="@drawable/ic_action_2"
         android:id="@+id/btn_start_second_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start Activity"
-        android:onClick="btnStartActivityClicked" />
+        android:onClick="btnStartActivityClicked"/>
 
     <!-- Declares a button that opens a browser -->
     <Button
+        android:drawableLeft="@drawable/ic_action_contact"
         android:id="@+id/btn_select_contact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Select Contact"
-        android:onClick="btnSelectContactClicked" />
+        android:onClick="btnSelectContactClicked"/>
 
 </LinearLayout>
