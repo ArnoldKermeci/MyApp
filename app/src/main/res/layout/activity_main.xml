@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- LinearLayout contains views. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
 
-    <!-- Declares a button that starts 2nd activity -->
+    <!-- Button can be pressed, or clicked, by the user to perform an action. -->
     <Button
-        android:drawableLeft="@drawable/ic_action_2"
-        android:id="@+id/btn_start_second_activity"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_capricciosa"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start Activity"
-        android:onClick="btnStartActivityClicked"/>
+        android:text="@string/button_capricciosa"
+        android:onClick="showCapricciosa" />
 
-    <!-- Declares a button that opens a browser -->
+    <!-- Button can be pressed, or clicked, by the user to perform an action. -->
     <Button
-        android:drawableLeft="@drawable/ic_action_contact"
-        android:id="@+id/btn_select_contact"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_hamburger"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Select Contact"
-        android:onClick="btnSelectContactClicked"/>
+        android:text="@string/button_hamburger"
+        android:onClick="showHamburger" />
+
+    <!-- Button can be pressed, or clicked, by the user to perform an action. -->
+    <Button
+        android:id="@+id/btn_fishnchips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_fishnchips"
+        android:onClick="showFishnChips" />
 
 </LinearLayout>

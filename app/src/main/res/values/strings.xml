@@ -8,4 +8,9 @@
     <string name="detail_heading">Web Page Detail</string>
     <string name="list_heading">Web Page Listing</string>
 
+    <string name="button_buy">Buy</string>
+    <string name="button_capricciosa">Show Capricciosa</string>
+    <string name="button_hamburger">Show Hamburger</string>
+    <string name="button_fishnchips">Show Fish n Chips</string>
+
 </resources>
